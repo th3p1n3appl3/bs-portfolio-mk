@@ -14,68 +14,62 @@
   </head>
   <body>
 
-    <!-- Navbar section -->
-    <section class="container-fluid" id="navbar">
-      <div class="row">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#navbar"><img class="nav-logo" src="assets/images/logo-color.jpg"></a>
-              <button
-                class="navbar-toggler "
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/images/logo-transparent.png"/></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Venues</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Artist</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
-                aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown ">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li><hr class="dropdown-divider" /></li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-              </div>
-            </div>
-          </nav>
+                Near You
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Venues</a></li>
+                <li><a class="dropdown-item" href="#">Artists</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Upcoming Acts</a></li>
+              </ul>
+            </li 
+              >
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
 
-<section class="container-fluid " id="hero">
+
+    <!-- Hero section -->
+<section class="container-fluid heroBackground" id="hero">
     <div class="row">
         <div class="col-12">
-            <div class="hero-container p-5 mb-4 bg-body-tertiary rounded-3">
+            <div class="p-5 mb-4 rounded-3">
                 <div class="container-fluid py-5">
                   <h1 class="display-5 fw-bold">Martin Kosel</h1>
                   <img src="assets/images/me.jpg" alt="Martin Kosel" class="img-fluid rounded-circle" width="200px" height="200px">
@@ -84,12 +78,33 @@
                     <a href="https://github.com/th3p1n3appl3" target="_blank"><img class="icon" src="assets/images/github.svg"></a>
                     <a href="https://www.linkedin.com/in/martin-kosel-97335826b/" target="_blank"><img class="icon" src="assets/images/linkedin.svg"></a>
                 </div>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-primary">Primary</button>
                 </div>
               </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- About section -->
+
+<div class="card bg-dark text-white">
+  <img src="assets/images/git.svg" class="card-img" alt="..." class="about-picture">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+    <i></i>
+  </div>
+</div>
+
+<!-- End of About section -->
+
+
+
+<!-- Footer section -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
