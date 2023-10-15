@@ -63,12 +63,12 @@ color: var(--secondary-color);
     min-width: 50px;
     max-width: 150px;
   }
-  .nav-link {
+  .nav-link, .active {
     margin: 0px 15px;
     color: var(--secondary-color)
   }
 
-  .nav-link:hover {
+  .nav-link a:hover {
     color: var(--primary-color);
   }
   
@@ -121,6 +121,9 @@ color: var(--secondary-color);
     padding: 0.5rem;
 }
 
+.skill-text {
+    margin: auto;
+}
   /* footer styling */
 
   .bd-placeholder-img {
