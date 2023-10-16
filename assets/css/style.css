@@ -8,6 +8,11 @@ background-size: cover;
 color: var(--secondary-color);
 }
 
+a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #0E67B4;
+}
+
 .icon {
   display: flex;
   justify-content: center;
@@ -19,6 +24,7 @@ color: var(--secondary-color);
 }
 
 .icon-div {
+  display: flex;
   justify-content: center;
 }
 
@@ -68,13 +74,13 @@ color: var(--secondary-color);
     color: var(--secondary-color)!important;
   }
 
-  .nav-link a:hover {
-    color: var(--primary-color);
+  .nav-link:hover {
+    color: #0E67B4!important;
   }
+
   
   .navToggle {
     color: var(--secondary-color);
-    background-image: var{}
   }
 
   /* Hero section */
@@ -115,12 +121,27 @@ color: var(--secondary-color);
 
 /* Skills section */
 
-.skill-icon {
-   
-}
+
 
 .skill-text {
     margin: auto;
+}
+
+
+/* About section */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.about p {
+  margin: 0 auto;
 }
   /* footer styling */
 
