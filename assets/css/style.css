@@ -21,11 +21,17 @@ a:hover {
   height: 50px;
   padding: 0.5rem;
   filter:brightness(0) invert(1);   
+  cursor: pointer;
+  will-change: transform;
 }
 
 .icon-div {
   display: flex;
   justify-content: center;
+}
+
+.icon-div:hover {
+  transform: scale(1.2);
 }
 
 .heroBackground {
