@@ -16,7 +16,7 @@ The main usage of this project is to have made a portfolio project with bootstra
 
 ## Screenshot
 
-![ScreenShot](https://imgbox.com/gallery/edit/rVVi2LIw7t/yr3dZ3J9e3mvwqJD)
+![ScreenShot](https://thumbs2.imgbox.com/c2/61/cSXlCHFn_t.jpg)
 
 ## License
 
